@@ -41,7 +41,7 @@ def day():
         #st.image('장소이미지')
         st.write('장소 설명')
     with col6:
-        st.container():
+        with st.container():
             st.write('a1234'+"일차")#a1234에 몇일차인지 입력
             st.write('장소')
             #st.image('장소이미지')
