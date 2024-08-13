@@ -21,5 +21,5 @@ st.markdown("""
     		var map = new kakao.maps.Map(container, options);
     	</script>
     </body>
-</html>""")
+</html>""",unsafe_allow_html=True)
 st.write("집가고싶다")
